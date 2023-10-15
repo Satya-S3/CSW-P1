@@ -1,0 +1,205 @@
+body{
+      background-color: rgb(48, 48, 165);
+}
+
+
+.containerFirst{
+      color: rgb(209, 202, 247);
+      margin: 20px;
+}
+.containerFirst h4{
+      position: relative;
+      top: -13px;
+     letter-spacing: 4px;
+}
+.containerFirst span{
+      color: rgb(214, 214, 3);
+}
+.container{
+      background-color: rgb(0, 0, 94);
+}
+.box{
+      background-color: blue;
+}
+
+.box ul{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      height: 40px;
+      list-style: none;
+      background-color: rgb(227, 227, 255);
+      color: blue;
+      font-weight: bold;
+}
+.box ul li{
+      padding: 10px 50px;
+}
+.box ul li:hover{
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+}
+
+
+
+
+
+
+.box2{
+      display: flex;
+      margin: 10px;
+}
+
+.box2 img{
+      height: 400px;
+}
+.box2 .text p{
+      color: rgb(214, 214, 3);
+}
+.box2 .text .table button{
+      float: right;
+      margin: 10px;
+      background-color: rgb(214, 168, 3);
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid black;
+      font-weight: bolder;
+}
+.box2 .text .table button:hover{
+      background-color: antiquewhite;
+      transform: scale(1.1);
+      cursor: pointer;
+}
+.box2 .text .table{
+      width: 700px;
+}
+.box2 .text .table .table2{
+      display: flex;
+      justify-content: space-around;
+      margin: 10px;
+      background-color: rgb(227, 227, 255);
+      color: blue;
+      width: 700px;
+      height: 200px;
+}
+.box2 .text .table .table2 div{
+      text-align: center;
+}
+.box2 .text .table .table2 div h1{
+      font-size: 50px;
+}
+.box2 .text .table .table2 div h1:hover{
+      transform: scale(1.2);
+      cursor: pointer;
+}
+.box2 .text .table .table2 div h5:hover{
+      color: black;
+      transform: scale(1.1);
+      cursor: pointer;
+}
+
+
+
+
+
+.box3{
+      background-color: rgb(227, 227, 255);
+      color: black;
+      display: flex;
+      justify-content: space-between;
+}
+.box3 .leftDiv{
+      margin:0px 30px;
+      width: 1800px;
+}
+.box3 .leftDiv h5{
+      color: blue;
+      font-size: 15px;
+}
+
+.box3 .leftDiv .table{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.box3 .leftDiv .table li{
+      margin: 10px 0px;
+}
+
+.box3 .leftDiv img{
+      height: 230px;
+      margin-right: 100px;
+}
+
+
+
+.box3 .rightDiv{
+      margin: 10px;
+}
+.box3 .rightDiv h1{
+      padding: 5px;
+      border-radius: 5px;
+      background-color: rgb(187, 187, 187);
+}
+.box3 .rightDiv div:not(.last){
+      margin-top: 40px;
+}
+.box3 .rightDiv div h4{
+      color:  rgb(255, 132, 0);
+}
+.box3 .rightDiv div p{
+      margin-top: -35px;
+}
+.box3 .rightDiv .last h3{
+      color:black;
+      background-color: rgb(187, 187, 187);
+      padding-left: 300px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+}
+.box3 .rightDiv .last h3:hover{
+      cursor: pointer;
+}
+
+.box4{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(227, 227, 255);
+}
+
+.box4 .square{
+      border-radius: 12px;
+      margin: 50px;
+      background-color: rgb(0, 0, 94);
+      color: white;
+}
+.box4 .square .read:hover{
+      color: rgba(255, 255, 255, 0.963);
+      cursor: pointer;
+}
+.box4 h1{
+      text-align: center;
+} 
+.box4 p{
+      padding: 10px;
+}
+.box4 .read{
+      color: rgb(255, 184, 90);
+}
+
+
+.con2{
+      text-align: center;
+      color: blue;
+      margin-top: 20px;
+      background-color: rgb(227, 227, 255);
+}
+.con2 div{
+      padding: 10px;
+}
+.con2 h6{
+      margin-top: -17px;
+}
+
