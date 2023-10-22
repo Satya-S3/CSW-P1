@@ -1,7 +1,8 @@
 body{
       background-color: rgb(48, 48, 165);
+      cursor:context-menu;
+      width: auto;
 }
-
 
 .containerFirst{
       color: rgb(209, 202, 247);
@@ -115,7 +116,7 @@ body{
 }
 .box3 .leftDiv{
       margin:0px 30px;
-      width: 1800px;
+      /* width: 1800px; */
 }
 .box3 .leftDiv h5{
       color: blue;
@@ -158,10 +159,9 @@ body{
 .box3 .rightDiv .last h3{
       color:black;
       background-color: rgb(187, 187, 187);
-      padding-left: 300px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-right: 10px;
+      text-wrap:nowrap;
+      float: inline-end;
+      padding: 10px 10px 10px 25vw;
 }
 .box3 .rightDiv .last h3:hover{
       cursor: pointer;
@@ -212,3 +212,77 @@ body{
       cursor: pointer;
 }
 
+@media screen and (max-width:1245px){
+     .box2{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+}
+      .box2 .text{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+     }
+     .box ul li{
+      padding: 10px 10px;
+}
+}
+
+@media screen and (max-width:930px){
+    .box3{
+      flex-direction: column;
+    }
+    .table{
+      flex-direction: column;
+    }
+    .box4{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .box2 .text .table{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box2 .text .table .table2{
+      width: 600px;
+    }
+ }
+
+ @media screen and (max-width:800px){
+      .box ul{
+            flex-direction: column;
+            height: auto;
+      }
+      .box2 .text .table .table2{
+            width: 400px;
+            height: auto;
+          }
+          .box2 .text{
+            text-wrap:wrap;
+            width: 500px;
+          }
+          .box2 .text .table {
+            width: min-content;
+          }  
+          .box2 img{
+            height: 350px;
+      }
+ }
+
+ @media screen and (max-width:510px){
+      .box2 .text .table .table2{
+            flex-direction: column;
+            width: 250px;
+      }
+      .box2 .text{
+            width:300px;
+      }
+      .box2 img{
+            height: 250px;
+      }
+ }
